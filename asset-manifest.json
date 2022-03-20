@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Socky/static/css/main.7667d769.css",
+    "main.js": "/Socky/static/js/main.cf80c6bb.js",
+    "static/media/backgroud.png": "/Socky/static/media/backgroud.fa03a531800ee25978a4.png",
+    "static/media/card.png": "/Socky/static/media/card.a46414c3e6bfc8a43fc8.png",
+    "static/media/card2.png": "/Socky/static/media/card2.5f5989c9f7bee122d3a9.png",
+    "static/media/stake.png": "/Socky/static/media/stake.623a2f3e9f5dceea36b6.png",
+    "static/media/Frame.png": "/Socky/static/media/Frame.d344c7229bcd8ba82975.png",
+    "index.html": "/Socky/index.html",
+    "main.7667d769.css.map": "/Socky/static/css/main.7667d769.css.map",
+    "main.cf80c6bb.js.map": "/Socky/static/js/main.cf80c6bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7667d769.css",
+    "static/js/main.cf80c6bb.js"
+  ]
+}
