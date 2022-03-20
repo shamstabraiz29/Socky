@@ -1,0 +1,23 @@
+.item {
+	display: flex;
+	justify-content: space-evenly;
+	position: relative;
+	gap: 20px;
+}
+.carousel-control-prev-icon {
+	position: absolute;
+	left: -20px;
+}
+.carousel-control-next-icon {
+	position: absolute;
+	right: -20px;
+}
+.Redeemed {
+	margin-top: 80px;
+}
+
+@media (max-width: 970px) {
+	.double-slide {
+		display: none;
+	}
+}

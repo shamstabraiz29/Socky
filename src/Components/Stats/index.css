@@ -1,0 +1,43 @@
+.Stats {
+	height: 105px;
+	width: 253px;
+	border-radius: 27px;
+	background: linear-gradient(rgb(0, 0, 0) 0 0) padding-box,
+		linear-gradient(to right, #e41bff, #09f3a6) border-box;
+	border: 1px solid transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	line-height: 2;
+}
+.Stats h1 {
+	font-size: 35px;
+	font-weight: 700;
+	color: #6e74ff;
+}
+.Stats p {
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+	line-height: 0;
+}
+.Stats-content {
+	margin-top: 6px;
+}
+.Stats-logo {
+	width: 60px;
+}
+
+@media screen and (max-width: 770px) {
+	.Stats h1 {
+		font-size: 23px;
+	}
+	.Stats-logo {
+		width: 37px;
+	}
+	.Stats {
+		height: 105px;
+		width: 201px;
+	}
+}

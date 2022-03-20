@@ -1,0 +1,47 @@
+.Dao-main {
+	min-height: 60vh;
+	margin-top: 10rem;
+}
+.Dao-heading {
+	font-size: 41px;
+	font-style: normal;
+	font-weight: 700;
+	color: white;
+}
+.Dao-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+.Dao-main-para {
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	color: white;
+	line-height: 2;
+}
+.Dao-main-para span {
+	color: #e41bff;
+}
+
+@media screen and (max-width: 770px) {
+	.Dao-main {
+		margin-top: 5rem;
+	}
+	.Dao-heading {
+		font-family: Kinn;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 700;
+	}
+	.Dao-main-para {
+		font-family: Inter;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 2;
+	}
+}

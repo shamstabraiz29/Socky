@@ -1,0 +1,9 @@
+.errorPage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh;
+}
+.errorPage h1 {
+	color: white;
+}

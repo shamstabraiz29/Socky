@@ -1,0 +1,140 @@
+.ProposalCard {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 20px;
+	height: 222px;
+	width: 756px;
+	border-radius: 27px;
+	background: linear-gradient(rgb(0, 0, 0) 0 0) padding-box,
+		linear-gradient(to right, #e41bff, #09f3a6) border-box;
+	border: 1px solid transparent;
+}
+.ProposalCard h1 {
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 29px;
+	letter-spacing: 0em;
+	color: #09f3a6;
+}
+.ProposalCard h2 {
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: 42px;
+line-height: 42.36px;
+color: #09f3a6;
+
+}
+.ProposalCard-btns{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.ProposalCard p {
+	color: white;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0em;
+}
+.yesbtn{
+	border: solid 1px #6e74ff;
+	border-radius: 10px;
+	padding: 10px;
+	color: #6e74ff;
+	background: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100px;
+	justify-content: center;
+	color: white;
+	background: linear-gradient(rgb(0, 0, 0) 0 0) padding-box,
+		linear-gradient(to right, #e41bff, #09f3a6) border-box;
+	border: 1px solid transparent;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+}
+.nobtn{
+	border: solid 1px #6e74ff;
+	border-radius: 10px;
+	padding: 10px;
+	color: #6e74ff;
+	background: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100px;
+	justify-content: center;
+	color: white;
+	background: linear-gradient(rgb(0, 0, 0) 0 0) padding-box,
+		linear-gradient(to right, #e41bff, #09f3a6) border-box;
+	border: 1px solid transparent;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+
+}
+
+@media screen and (max-width: 970px) {
+	.ProposalCard {
+		height: 187px;
+width: 346px;
+
+border-radius: 16px;
+
+	}
+	.ProposalCard-btns{
+		display: flex;
+		flex-direction: row;
+		/* gap: 20px; */
+	}
+	.ProposalCard h1 {
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 17px;
+
+	}
+	.ProposalCard p {
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 15px;
+
+	}
+	.ProposalCard h2 {
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px;
+
+
+	}
+	.nobtn{
+		width: 81px;
+		height: 30.82px;
+		background: #372C44;
+		font-size: 15px;
+		line-height: 10px;
+	}
+	.yesbtn{
+		width: 81px;
+		height: 30.82px;
+		background: #372C44;
+		font-size: 15px;
+		line-height: 12px;
+		background: none;
+		background: linear-gradient(rgb(0, 0, 0) 0 0) padding-box,
+			linear-gradient(to right, #e41bff, #09f3a6) border-box;
+		border: 1px solid transparent;
+
+	}
+}

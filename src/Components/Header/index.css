@@ -1,0 +1,225 @@
+.link {
+	color: #636363;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 18px;
+}
+.nav-btn {
+	border: solid 1px #6e74ff;
+	border-radius: 10px;
+	padding: 10px;
+	color: #6e74ff;
+	background: none;
+	margin-top: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.one {
+	display: flex;
+	justify-content: space-between;
+	gap: 6px;
+}
+.one img {
+	width: 22px;
+}
+
+.nav-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-right: 22px;
+}
+
+.nav-menu {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 20px;
+	margin-top: 10px;
+}
+li {
+	list-style: none;
+}
+.nav-links {
+	color: #636363;
+	text-decoration: none;
+}
+
+.nav-item {
+	margin-right: 1rem;
+}
+
+.nav-item:after {
+	content: '';
+	display: block;
+	height: 3px;
+	width: 0;
+	background: transparent;
+	transition: width 0.1s ease, background-color 0.1s ease;
+}
+
+.nav-icon {
+	display: none;
+}
+.nav-item .active {
+	color: #6e74ff;
+}
+@media (max-width: 960px) {
+	.nav-logo {
+		padding-top: 25px;
+		padding-left: 45px;
+		z-index: 6;
+	}
+	.nav-btn {
+		padding: 10px;
+		flex-wrap: nowrap;
+	}
+	.nav-menu {
+		display: flex;
+		flex-direction: column;
+		width: 80%;
+		height: 100vh;
+		position: absolute;
+		top: 80px;
+		right: 110%;
+		opacity: 1;
+		transition: all 0.1s ease;
+		overflow: hidden;
+	}
+
+	.nav-menu.active {
+		background: #372c44;
+		left: 70px;
+		top: 0px;
+		opacity: 1;
+		transition: all 0.1s ease-in;
+		z-index: 2;
+		padding-bottom: 20px;
+	}
+	.nav-item .active {
+		color: #6e74ff;
+		border: none;
+	}
+	.fist {
+		margin-top: 90px;
+	}
+	.nav-links {
+		width: 100%;
+		display: table;
+	}
+
+	.nav-icon {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		transform: translate(-100%, 60%);
+		font-size: 1.8rem;
+		cursor: pointer;
+		color: #fdfdfd;
+		z-index: 2;
+	}
+}
+@media screen and (max-width: 504px) {
+	.nav-logo {
+		padding-top: 25px;
+	}
+	.nav-item {
+		margin-right: 15rem;
+	}
+	.one {
+		margin-right: 2.5rem;
+	}
+	.nav-btn {
+		margin-right: 9rem;
+		padding: 10px;
+		flex-wrap: nowrap;
+		justify-content: center;
+	}
+}
+
+.toolbar {
+	width: 100%;
+	background: none;
+	height: 56px;
+	z-index: 50;
+	margin: auto;
+}
+.DrawerToggleButton {
+	margin-top: 1rem;
+	width: 30px;
+}
+.toolbar__logo {
+	margin-top: 1.5rem;
+}
+.toolbar__navigation {
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+
+.toolbar__logo a {
+	color: white;
+	text-decoration: none;
+}
+
+.spacer {
+	flex: 1;
+}
+
+.toolbar_nav-items ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.toolbar_nav-items li {
+	padding: 0 0.5rem;
+}
+
+.toolbar_nav-items a {
+	color: white;
+	text-decoration: none;
+}
+
+.toolbar_nav-items a:hover,
+.toolbar_nav-items a:active {
+	color: #6e74ff;
+}
+
+@media (max-width: 970px) {
+	.toolbar_nav-items {
+		display: none;
+	}
+	.toolbar-head {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		align-items: center;
+	}
+	.toolbar__logo {
+		margin-top: 1.5rem;
+		width: 35px;
+	}
+	.DrawerToggleButto img {
+		margin-top: 1rem;
+		width: 32px;
+	}
+	.DrawerToggleButton {
+		margin-top: 1.5rem;
+		width: 30px;
+	}
+}
+
+@media (min-width: 970px) {
+	.toolbar__toggle-button {
+		display: none;
+	}
+}

@@ -1,0 +1,121 @@
+.StakeCard {
+	height: 178px;
+	width: 586px;
+	border-radius: 27px;
+	background: linear-gradient(rgb(0, 0, 0) 0 0) padding-box,
+		linear-gradient(to right, #e41bff, #09f3a6) border-box;
+	border: 1px solid transparent;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+.StakeCard h1 {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 0;
+	color: #09f3a6;
+}
+.StakeCard p {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	color: white;
+	line-height: 5;
+}
+.StakeCard h2 {
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 600;
+	color: white;
+	line-height: 0;
+}
+.StakeCard-img {
+	width: 113px;
+}
+.StakeCard-content {
+	padding: 20px;
+}
+.ClaimCard {
+	height: 157px;
+	width: 332px;
+	border-radius: 27px;
+	background: linear-gradient(rgb(0, 0, 0) 0 0) padding-box,
+		linear-gradient(to right, #e41bff, #09f3a6) border-box;
+	border: 1px solid transparent;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+}
+.ClaimCard h1 {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	color: #636363;
+}
+.ClaimCard p {
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	color: #09f3a6;
+	background: linear-gradient(to right, #09f3a6 0%, #f7bd01 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.ClaimCard-content {
+	padding: 20px;
+}
+.ClaimCardButton2 {
+	background: #372c44;
+	border-radius: 10px;
+	padding: 10px;
+	color: white;
+	border: none;
+	width: 88px;
+}
+.icon-main {
+	position: relative;
+}
+.ClaimCardIcon {
+	position: absolute;
+	top: 12px;
+	right: 35px;
+}
+.ClaimCardButton {
+	background: linear-gradient(
+		55.8deg,
+		#e41bff 9.23%,
+		#d22df8 15.37%,
+		#7d81d5 45.28%,
+		#3ebebc 69.76%,
+		#18e5ac 87.56%,
+		#09f3a6 96.85%
+	);
+	border: solid 1px #6e74ff;
+	border-radius: 10px;
+	padding: 10px;
+	color: white;
+	text-align: inherit;
+	width: 110px;
+}
+@media screen and (max-width: 770px) {
+	.StakeCard {
+		margin-top: 40px;
+	}
+	.StakeCard {
+		margin-top: 20px;
+	}
+	.ClaimCard p {
+		padding: 0;
+		margin: 0;
+	}
+}
+@media screen and (max-width: 397px) {
+	.ClaimCard {
+		height: 157px;
+		width: 300px;
+	}
+	.ClaimCard-img {
+		width: 100px;
+	}
+}
